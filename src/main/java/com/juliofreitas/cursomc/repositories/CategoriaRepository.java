@@ -11,10 +11,7 @@ import com.juliofreitas.cursomc.domain.Categoria;
 /**
  * @author julio.freitas
  *
- *Realizar operações de acesso a dados referente ao objeto categoria
+ *         Realizar operações de acesso a dados referente ao objeto categoria
  */
 @Repository
-public interface CategoriaRepository extends JpaRepository<Categoria, Integer> {
-
-	
-}
+public interface CategoriaRepository extends JpaRepository<Categoria, Integer> {}
